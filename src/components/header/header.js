@@ -29,10 +29,10 @@ export default function Header() {
                     Contact US
                   </Button>
                 </Box>
-                <Button variant="text" sx={styles.getStartedMobile}>
+                {/* <Button variant="text" sx={styles.getStartedMobile}>
                   Get Started
                 </Button>
-                <NavbarDrawer />
+                <NavbarDrawer /> */}
               </Box>
             </Container>
           </Box>

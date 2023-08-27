@@ -2,13 +2,17 @@ import React from 'react';
 
 const Logo = ({ white, ...props }) => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" width={100} height={100} {...props}>
-    <path fill="#fff" d="M0 0h1000v1000H0z" />
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      // width={100} 
+      height={70} 
+      {...props}>
+    {/* <path fill="#fff" d="M0 0h1000v1000H0z" /> */}
     <svg
       viewBox="0 0 396 85"
       data-background-color="#ffffff"
-      height={100}
-      width={100}
+      height={70}
+      // width={100}
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
       transform="matrix(.7 0 0 .7 149.576 424.785)"
